@@ -15,6 +15,7 @@ bathrooms_max = df["bathrooms"].max()
 stories_max = df["stories"].max()
 parking_max = df["parking"].max()
 
+st.set_page_config(page_title="Dashboard")
 st.title("House Price Prediction 🏠")
 
 area_num_inpt = st.number_input("Area (sq ft)")
