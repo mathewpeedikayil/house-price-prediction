@@ -45,5 +45,8 @@ if st.button("Predict House Price"):
 # Finding Minimum and Maximum Values in a DataFrame Column
 # https://discovery.cs.illinois.edu/guides/DataFrame-Row-Selection/finding-min-and-max/
 
-# st.slider
-# https://docs.streamlit.io/develop/api-reference/widgets/st.slider
+# Input widgets
+# https://docs.streamlit.io/develop/api-reference/widgets
+
+# How to Save and Load Machine Learning Models in Python Using Joblib Library?
+# https://www.analyticsvidhya.com/blog/2023/02/how-to-save-and-load-machine-learning-models-in-python-using-joblib-library/
