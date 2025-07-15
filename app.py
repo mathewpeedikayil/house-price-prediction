@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.markdown("Hello World!")
+st.title("House Price Prediction 🏠")
 
 # streamlit run app.py
