@@ -51,3 +51,6 @@ if st.button("Predict House Price"):
 
 # How to Save and Load Machine Learning Models in Python Using Joblib Library?
 # https://www.analyticsvidhya.com/blog/2023/02/how-to-save-and-load-machine-learning-models-in-python-using-joblib-library/
+
+# How to Deploy Your App to Streamlit Community Cloud
+# https://www.youtube.com/watch?v=HKoOBiAaHGg
