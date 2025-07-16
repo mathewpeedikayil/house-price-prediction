@@ -1,5 +1,5 @@
 # House Price Prediction 🏠
-A streamlit app that estimates house prices using a linear regression model.
+This project is a streamlit app that predicts house prices utilising a linear regression model. A predicted house price is displayed after users input features like area, bedrooms, bathrooms, stories, and parking spaces.
 
 ## Program Execution
 ### Explore live app
@@ -14,4 +14,4 @@ streamlit run app.py
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details.
