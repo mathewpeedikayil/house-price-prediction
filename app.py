@@ -1,3 +1,5 @@
+from streamlit_js_eval import streamlit_js_eval
+
 import streamlit as st
 import pandas as pd
 import joblib
@@ -38,6 +40,9 @@ lm = joblib.load('model.pkl')
 if st.button("Predict House Price"):
     predicted_price = lm.predict(input_data)
     st.success(f"💰 Predicted House Price: $ {predicted_price[0]:,.0f}")
+
+if st.button("Reload page"):
+    streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
 # streamlit run app.py
 
